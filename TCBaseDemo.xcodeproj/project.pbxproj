@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6611244D1CC9D6D3006FBC5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611244C1CC9D6D3006FBC5E /* main.m */; };
+		661124501CC9D6D3006FBC5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611244F1CC9D6D3006FBC5E /* AppDelegate.m */; };
+		661124531CC9D6D3006FBC5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661124521CC9D6D3006FBC5E /* ViewController.m */; };
+		661124561CC9D6D3006FBC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661124541CC9D6D3006FBC5E /* Main.storyboard */; };
+		661124581CC9D6D3006FBC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661124571CC9D6D3006FBC5E /* Assets.xcassets */; };
+		6611245B1CC9D6D3006FBC5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661124591CC9D6D3006FBC5E /* LaunchScreen.storyboard */; };
+		661124651CC9D6FC006FBC5E /* TCBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661124641CC9D6FC006FBC5E /* TCBaseTableView.m */; };
+		661124681CC9D720006FBC5E /* TCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661124671CC9D720006FBC5E /* TCBaseViewController.m */; };
+		6611246B1CC9D735006FBC5E /* TCBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611246A1CC9D735006FBC5E /* TCBaseButton.m */; };
+		6611246E1CC9D74C006FBC5E /* TCBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611246D1CC9D74C006FBC5E /* TCBaseLabel.m */; };
+		661124711CC9D769006FBC5E /* TCBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 661124701CC9D769006FBC5E /* TCBaseTableViewCell.m */; };
+		661124741CC9D78C006FBC5E /* TCBaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661124731CC9D78C006FBC5E /* TCBaseImageView.m */; };
+		661124771CC9D7A9006FBC5E /* TCBaseBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 661124761CC9D7A9006FBC5E /* TCBaseBarButtonItem.m */; };
+		6611247A1CC9D7CD006FBC5E /* TCBaseSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 661124791CC9D7CD006FBC5E /* TCBaseSearchBar.m */; };
+		6611247D1CC9D7E4006FBC5E /* TCBaseColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611247C1CC9D7E4006FBC5E /* TCBaseColor.m */; };
+		661124801CC9D7F7006FBC5E /* TCBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611247F1CC9D7F7006FBC5E /* TCBaseView.m */; };
+		661124831CC9D80C006FBC5E /* TCBaseImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 661124821CC9D80C006FBC5E /* TCBaseImage.m */; };
+		661124891CC9D845006FBC5E /* TCBaseDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661124881CC9D845006FBC5E /* TCBaseDelegate.m */; };
+		661124951CCA1491006FBC5E /* TCBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661124941CCA1491006FBC5E /* TCBaseTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		661124481CC9D6D3006FBC5E /* TCBaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCBaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6611244C1CC9D6D3006FBC5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6611244E1CC9D6D3006FBC5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6611244F1CC9D6D3006FBC5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		661124511CC9D6D3006FBC5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		661124521CC9D6D3006FBC5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		661124551CC9D6D3006FBC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		661124571CC9D6D3006FBC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6611245A1CC9D6D3006FBC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6611245C1CC9D6D3006FBC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661124631CC9D6FC006FBC5E /* TCBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseTableView.h; path = TCBase/TCBaseTableView.h; sourceTree = "<group>"; };
+		661124641CC9D6FC006FBC5E /* TCBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseTableView.m; path = TCBase/TCBaseTableView.m; sourceTree = "<group>"; };
+		661124661CC9D720006FBC5E /* TCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseViewController.h; path = TCBase/TCBaseViewController.h; sourceTree = "<group>"; };
+		661124671CC9D720006FBC5E /* TCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseViewController.m; path = TCBase/TCBaseViewController.m; sourceTree = "<group>"; };
+		661124691CC9D735006FBC5E /* TCBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseButton.h; path = TCBase/TCBaseButton.h; sourceTree = "<group>"; };
+		6611246A1CC9D735006FBC5E /* TCBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseButton.m; path = TCBase/TCBaseButton.m; sourceTree = "<group>"; };
+		6611246C1CC9D74C006FBC5E /* TCBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseLabel.h; path = TCBase/TCBaseLabel.h; sourceTree = "<group>"; };
+		6611246D1CC9D74C006FBC5E /* TCBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseLabel.m; path = TCBase/TCBaseLabel.m; sourceTree = "<group>"; };
+		6611246F1CC9D769006FBC5E /* TCBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseTableViewCell.h; path = TCBase/TCBaseTableViewCell.h; sourceTree = "<group>"; };
+		661124701CC9D769006FBC5E /* TCBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseTableViewCell.m; path = TCBase/TCBaseTableViewCell.m; sourceTree = "<group>"; };
+		661124721CC9D78C006FBC5E /* TCBaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseImageView.h; path = TCBase/TCBaseImageView.h; sourceTree = "<group>"; };
+		661124731CC9D78C006FBC5E /* TCBaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseImageView.m; path = TCBase/TCBaseImageView.m; sourceTree = "<group>"; };
+		661124751CC9D7A9006FBC5E /* TCBaseBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseBarButtonItem.h; path = TCBase/TCBaseBarButtonItem.h; sourceTree = "<group>"; };
+		661124761CC9D7A9006FBC5E /* TCBaseBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseBarButtonItem.m; path = TCBase/TCBaseBarButtonItem.m; sourceTree = "<group>"; };
+		661124781CC9D7CD006FBC5E /* TCBaseSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseSearchBar.h; path = TCBase/TCBaseSearchBar.h; sourceTree = "<group>"; };
+		661124791CC9D7CD006FBC5E /* TCBaseSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseSearchBar.m; path = TCBase/TCBaseSearchBar.m; sourceTree = "<group>"; };
+		6611247B1CC9D7E4006FBC5E /* TCBaseColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseColor.h; path = TCBase/TCBaseColor.h; sourceTree = "<group>"; };
+		6611247C1CC9D7E4006FBC5E /* TCBaseColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseColor.m; path = TCBase/TCBaseColor.m; sourceTree = "<group>"; };
+		6611247E1CC9D7F7006FBC5E /* TCBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseView.h; path = TCBase/TCBaseView.h; sourceTree = "<group>"; };
+		6611247F1CC9D7F7006FBC5E /* TCBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseView.m; path = TCBase/TCBaseView.m; sourceTree = "<group>"; };
+		661124811CC9D80C006FBC5E /* TCBaseImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseImage.h; path = TCBase/TCBaseImage.h; sourceTree = "<group>"; };
+		661124821CC9D80C006FBC5E /* TCBaseImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseImage.m; path = TCBase/TCBaseImage.m; sourceTree = "<group>"; };
+		661124871CC9D845006FBC5E /* TCBaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseDelegate.h; path = TCBase/TCBaseDelegate.h; sourceTree = "<group>"; };
+		661124881CC9D845006FBC5E /* TCBaseDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseDelegate.m; path = TCBase/TCBaseDelegate.m; sourceTree = "<group>"; };
+		6611248A1CC9D86B006FBC5E /* TCBaseUtill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCBaseUtill.h; path = TCBase/TCBaseUtill.h; sourceTree = "<group>"; };
+		661124931CCA1491006FBC5E /* TCBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCBaseTabBarController.h; path = TCBase/TCBaseTabBarController.h; sourceTree = "<group>"; };
+		661124941CCA1491006FBC5E /* TCBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCBaseTabBarController.m; path = TCBase/TCBaseTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661124451CC9D6D3006FBC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6611243F1CC9D6D3006FBC5E = {
+			isa = PBXGroup;
+			children = (
+				6611244A1CC9D6D3006FBC5E /* TCBaseDemo */,
+				661124491CC9D6D3006FBC5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		661124491CC9D6D3006FBC5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661124481CC9D6D3006FBC5E /* TCBaseDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6611244A1CC9D6D3006FBC5E /* TCBaseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				661124621CC9D6DA006FBC5E /* TCBase */,
+				6611244E1CC9D6D3006FBC5E /* AppDelegate.h */,
+				6611244F1CC9D6D3006FBC5E /* AppDelegate.m */,
+				661124511CC9D6D3006FBC5E /* ViewController.h */,
+				661124521CC9D6D3006FBC5E /* ViewController.m */,
+				661124541CC9D6D3006FBC5E /* Main.storyboard */,
+				661124571CC9D6D3006FBC5E /* Assets.xcassets */,
+				661124591CC9D6D3006FBC5E /* LaunchScreen.storyboard */,
+				6611245C1CC9D6D3006FBC5E /* Info.plist */,
+				6611244B1CC9D6D3006FBC5E /* Supporting Files */,
+			);
+			path = TCBaseDemo;
+			sourceTree = "<group>";
+		};
+		6611244B1CC9D6D3006FBC5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6611244C1CC9D6D3006FBC5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		661124621CC9D6DA006FBC5E /* TCBase */ = {
+			isa = PBXGroup;
+			children = (
+				661124631CC9D6FC006FBC5E /* TCBaseTableView.h */,
+				661124641CC9D6FC006FBC5E /* TCBaseTableView.m */,
+				661124661CC9D720006FBC5E /* TCBaseViewController.h */,
+				661124671CC9D720006FBC5E /* TCBaseViewController.m */,
+				661124691CC9D735006FBC5E /* TCBaseButton.h */,
+				6611246A1CC9D735006FBC5E /* TCBaseButton.m */,
+				6611246C1CC9D74C006FBC5E /* TCBaseLabel.h */,
+				6611246D1CC9D74C006FBC5E /* TCBaseLabel.m */,
+				6611246F1CC9D769006FBC5E /* TCBaseTableViewCell.h */,
+				661124701CC9D769006FBC5E /* TCBaseTableViewCell.m */,
+				661124721CC9D78C006FBC5E /* TCBaseImageView.h */,
+				661124731CC9D78C006FBC5E /* TCBaseImageView.m */,
+				661124751CC9D7A9006FBC5E /* TCBaseBarButtonItem.h */,
+				661124761CC9D7A9006FBC5E /* TCBaseBarButtonItem.m */,
+				661124781CC9D7CD006FBC5E /* TCBaseSearchBar.h */,
+				661124791CC9D7CD006FBC5E /* TCBaseSearchBar.m */,
+				6611247B1CC9D7E4006FBC5E /* TCBaseColor.h */,
+				6611247C1CC9D7E4006FBC5E /* TCBaseColor.m */,
+				6611247E1CC9D7F7006FBC5E /* TCBaseView.h */,
+				6611247F1CC9D7F7006FBC5E /* TCBaseView.m */,
+				661124811CC9D80C006FBC5E /* TCBaseImage.h */,
+				661124821CC9D80C006FBC5E /* TCBaseImage.m */,
+				661124871CC9D845006FBC5E /* TCBaseDelegate.h */,
+				661124881CC9D845006FBC5E /* TCBaseDelegate.m */,
+				6611248A1CC9D86B006FBC5E /* TCBaseUtill.h */,
+				661124931CCA1491006FBC5E /* TCBaseTabBarController.h */,
+				661124941CCA1491006FBC5E /* TCBaseTabBarController.m */,
+			);
+			name = TCBase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661124471CC9D6D3006FBC5E /* TCBaseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6611245F1CC9D6D3006FBC5E /* Build configuration list for PBXNativeTarget "TCBaseDemo" */;
+			buildPhases = (
+				661124441CC9D6D3006FBC5E /* Sources */,
+				661124451CC9D6D3006FBC5E /* Frameworks */,
+				661124461CC9D6D3006FBC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCBaseDemo;
+			productName = TCBaseDemo;
+			productReference = 661124481CC9D6D3006FBC5E /* TCBaseDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661124401CC9D6D3006FBC5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "com.TongChang.Co., Ltd.";
+				TargetAttributes = {
+					661124471CC9D6D3006FBC5E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 661124431CC9D6D3006FBC5E /* Build configuration list for PBXProject "TCBaseDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6611243F1CC9D6D3006FBC5E;
+			productRefGroup = 661124491CC9D6D3006FBC5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661124471CC9D6D3006FBC5E /* TCBaseDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661124461CC9D6D3006FBC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6611245B1CC9D6D3006FBC5E /* LaunchScreen.storyboard in Resources */,
+				661124581CC9D6D3006FBC5E /* Assets.xcassets in Resources */,
+				661124561CC9D6D3006FBC5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661124441CC9D6D3006FBC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661124801CC9D7F7006FBC5E /* TCBaseView.m in Sources */,
+				661124831CC9D80C006FBC5E /* TCBaseImage.m in Sources */,
+				6611246E1CC9D74C006FBC5E /* TCBaseLabel.m in Sources */,
+				661124531CC9D6D3006FBC5E /* ViewController.m in Sources */,
+				661124771CC9D7A9006FBC5E /* TCBaseBarButtonItem.m in Sources */,
+				661124951CCA1491006FBC5E /* TCBaseTabBarController.m in Sources */,
+				661124681CC9D720006FBC5E /* TCBaseViewController.m in Sources */,
+				661124651CC9D6FC006FBC5E /* TCBaseTableView.m in Sources */,
+				661124891CC9D845006FBC5E /* TCBaseDelegate.m in Sources */,
+				6611247A1CC9D7CD006FBC5E /* TCBaseSearchBar.m in Sources */,
+				6611246B1CC9D735006FBC5E /* TCBaseButton.m in Sources */,
+				661124711CC9D769006FBC5E /* TCBaseTableViewCell.m in Sources */,
+				661124741CC9D78C006FBC5E /* TCBaseImageView.m in Sources */,
+				6611247D1CC9D7E4006FBC5E /* TCBaseColor.m in Sources */,
+				661124501CC9D6D3006FBC5E /* AppDelegate.m in Sources */,
+				6611244D1CC9D6D3006FBC5E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		661124541CC9D6D3006FBC5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661124551CC9D6D3006FBC5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		661124591CC9D6D3006FBC5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6611245A1CC9D6D3006FBC5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6611245D1CC9D6D3006FBC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6611245E1CC9D6D3006FBC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		661124601CC9D6D3006FBC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TCBaseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lingkangli.TCBaseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		661124611CC9D6D3006FBC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TCBaseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lingkangli.TCBaseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661124431CC9D6D3006FBC5E /* Build configuration list for PBXProject "TCBaseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6611245D1CC9D6D3006FBC5E /* Debug */,
+				6611245E1CC9D6D3006FBC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6611245F1CC9D6D3006FBC5E /* Build configuration list for PBXNativeTarget "TCBaseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661124601CC9D6D3006FBC5E /* Debug */,
+				661124611CC9D6D3006FBC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 661124401CC9D6D3006FBC5E /* Project object */;
+}
